@@ -5,7 +5,7 @@ if(!function_exists("run_query"))
 {
     function run_query($query, $params = null) {
         //MySQL credentials
-        $host = '35.196.165.173';
+        $host = '35.196.165.173'; //Please note: The IP ranges that can connect to this database server are restricted to Montclair State University and joldzic.net.
         $db   = 'themightyfivedatabase';
         $user = 'mightyfive';
         $pass = '02GzqFl1DHfxEqF5';
